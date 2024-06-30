@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Cardapio</title>
+</head>
+<body>
+    <div id="logo"><img id="imagem" src="logo.png" alt="logo"></div>
+    
+    <nav class="navegacao">
+        <li><a href="#1"><p>Principais</p></a></li>
+        <li><a href=""><p>Porções</p></a></li>
+        <li><a href=""><p>Lanches</p></a></li>
+        <li><a href=""><p>Doces</p></a></li>
+        <li><a href="#2"><p>Bebidas</p></a></li>
+    </nav>
+
+    <div id="barra"></div>
+
+    <script>
+        const nav = document.getElementsByClassName("navegacao")[0]
+        const topo = nav.offsetTop
+
+        window.onscroll=function(){fixarNav()}
+
+        function fixarNav(){
+            if (window.pageYOffset >= topo){
+                nav.classList.add("fixarNav")
+            }else{
+                nav.classList.remove("fixarNav")
+            }
+        }
+    </script>
+    
+    <main>
+        <h1 id="1">Principais</h1>
+        <div>
+            <img src="assets/prato1.png" alt="prato1">
+            <span>R$00,00</span>
+            
+            <div>
+                <h2>Prato cheio</h2>
+                <p>arroz, feijao, batata-frita, molho, bife e salada.</p>
+            </div>
+        </div>
+        <div class="line"></div>
+        <div>
+            <img src="assets/prato2.png" alt="">
+            <span>R$00,00</span>
+            
+            <div>
+                <h2>Fango assado</h2>
+                <p>arroz, feijao, filé de frango, salada de tomate e torresmo.</p>
+            </div>
+    
+        </div>
+        <div class="line"></div>
+        <div>
+            <img src="assets/prato3.png" alt="">
+            <span>R$00,00</span>
+            
+            <div>
+                <h2>Polenta com ragu</h2>
+                <p>Polenta, caldo de legumes, linguiça e parmesao.</p>
+            </div>
+        </div>
+        <div class="line"></div>
+        <div>
+            <img src="assets/prato4.png" alt="">
+            <span>R$00,00</span>
+            
+            <div>
+                <h2>Parmegiana</h2>
+                <p>Berinjela, queijo mozzarella, parmesao e ovos.</p>
+            </div>
+        </div>
+        <div class="line"></div>
+        <div>
+            <img src="assets/prato5.png" alt="">
+            <span>R$00,00</span>
+            
+            <div>
+                <h2>Escondidinho</h2>
+                <p>Batata-doce, caldo de legumes, cogumelos e queijo qualho.</p>
+            </div>
+        </div>
+        <div class="line"></div>
+
+
+
+        <h1 id="2">Bebidas</h1>
+        <div>
+            <img src="assets/bebida1.png" alt="">
+            <span>R$00,00</span>
+            
+            <div>
+                <h2>coca lata</h2>
+                <p>Coca-cola normal e Coca-cola zero açucar.</p>
+            </div>
+        </div>
+        <div class="line"></div>
+        <div>
+            <img src="assets/bebida2.png" alt="">
+            <span>R$00,00</span>
+            
+            <div>
+                <h2>refigerante 2l</h2>
+                <p>Coca-cola, fanta, guarana, it ...</p>
+            </div>
+        </div>
+        <div class="line"></div>
+        <div>
+            <img src="assets/bebida3.png" alt="">
+            <span>R$00,00</span>
+            
+            <div>
+                <h2>heineken</h2>
+                <p>Lata 350ml ou garrafa 600ml.</p>
+            </div>
+        </div>
+        <div class="line"></div>
+        <div>
+            <img src="assets/bebida4.png" alt="">
+            <span>R$00,00</span>
+            
+            <div>
+                <h2>skol</h2>
+                <p>Lata 350ml ou garrafa 600ml.</p>
+            </div>
+        </div>
+        <div class="line"></div>
+        <div>
+            <img src="assets/bebida5.png" alt="">
+            <span>R$00,00</span>
+            
+            <div>
+                <h2>Brahma</h2>
+                <p>Lata 350ml ou garrafa 600ml, zero, duplo moute e normal.</p>
+            </div>
+        </div>
+    </main>
+
+
+    <footer>
+        <a href=""><p> -> Fale com o programador <- </p></a>
+    </footer>
+</body>
+</html>
