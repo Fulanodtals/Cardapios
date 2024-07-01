@@ -70,6 +70,7 @@ main div{
     display: flex;
     margin-top: 28px;
 }
+
 main div img{
     width: 90px;
     height: 90px;
@@ -88,7 +89,10 @@ main div span{
     padding: 5px;
 }
 main div div{
+    width: 100%;
+
     display: inline-block;
+    text-align: center;
 }
 main div h2{
     text-align: center;
@@ -97,8 +101,6 @@ main div h2{
     color:white;
 }
 main div p{
-    margin-left: 15px;
-    max-width: 240px;
     color: white;
 }
 main .line{
