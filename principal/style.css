@@ -5,7 +5,13 @@ body{
     font-family: "Oswald";
     font-weight: 500;
 }
-
+body a{
+    -webkit-tap-highlight-color: transparent;
+    -moz-tap-highlight-color: transparent;
+    -ms-tap-highlight-color: transparent;
+    -o-tap-highlight-color: transparent;
+    tap-highlight-color: transparent;   
+}
 
 
 div{
@@ -73,6 +79,8 @@ div{
     flex-direction: row;
     text-decoration: none;
 }
+
+
 #cardapio img{
     width: 28px;
     height: 28px;
