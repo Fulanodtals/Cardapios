@@ -25,14 +25,15 @@ nav{
     display: flex;
     overflow-x: auto;
     overflow-y: hidden;
+    position: relative;
     -webkit-overflow-scrolling: touch; 
 }
 .fixarNav{
-    position: fixed;
+    position: sticky;
     top: 0px;
     width: 100%;
-    
 }
+
 
 nav::-webkit-scrollbar {
     display: none;
@@ -101,6 +102,7 @@ main div h2{
     color:white;
 }
 main div p{
+    padding: 0px 5% 0px 2%;
     color: white;
 }
 main .line{

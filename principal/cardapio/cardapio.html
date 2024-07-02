@@ -17,19 +17,19 @@
         <li><a href="#2"><p>Bebidas</p></a></li>
     </nav>
 
-    <div id="barra"></div>
 
+    
     <script>
-        const nav = document.getElementsByClassName("navegacao")[0]
-        const topo = nav.offsetTop
+        const nav = document.getElementsByClassName("navegacao")[0];
+        const topo = nav.offsetTop;
 
-        window.onscroll=function(){fixarNav()}
+        window.onscroll=function(){fixarNav()};
 
         function fixarNav(){
             if (window.pageYOffset >= topo){
-                nav.classList.add("fixarNav")
+                nav.classList.add("fixarNav");
             }else{
-                nav.classList.remove("fixarNav")
+                nav.classList.remove("fixarNav");
             }
         }
     </script>
