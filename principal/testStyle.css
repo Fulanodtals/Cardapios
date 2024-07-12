@@ -1,0 +1,30 @@
+body{
+    background-color: rgba(0, 0, 0, 0.986);
+    margin: 0 auto;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+main{
+    background-color: rgba(0, 0, 0, 0.959);
+    max-width: 120dvh;
+    height: 100dvh;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+img{
+    width: 50px;
+}
+
+main #logo{
+    width: 94%;
+}
+
+main #burguer{
+    width: 74%;
+}

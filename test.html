@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test</title>
+    <link rel="stylesheet" href="test.css">
+</head>
+<body>
+    <main>
+        <img src="principal/logo.png" alt="logo">
+        <h2 id="status"></h2>
+        <div class="main">
+            <a href="https://www.ifood.com.brs"><span>PEDIR ENTREGA</span></a>
+            <a href="principal/cardapio/cardapio.html"><span>CARDAPIO</span></a>
+        </div>
+        <script>
+            function verificarHorario() {
+            var agora = new Date();
+            var horas = agora.getHours();
+
+            var statusElement = document.getElementById('status');
+
+            if (horas >= 9 && horas <= 18) {
+                statusElement.textContent = "estamos abertos!";
+                statusElement.className = 'aberto';
+            } else {
+                statusElement.textContent = "estamos fechados!";
+                statusElement.className = 'fechado';
+            }
+            }
+            setInterval(verificarHorario, 1000);
+            verificarHorario();
+        </script> 
+        <h1>VEJA NOSSAS REDES:</h1>
+        <div class="redes">
+            <a href="https://www.instagram.com">INSTAGRAM</a>
+            <a href="https://www.facebook.com">FACEBOOK</a>
+            <a href="https://www.whatsapp.com">WHATSAPP</a>
+            <a href="https://www.google.com/maps/">MAPS</a>
+        </div>
+    </main>
+</body>
+</html>

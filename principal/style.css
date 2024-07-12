@@ -77,7 +77,7 @@ div{
     border-radius: 50px;
     background-color: rgb(207, 152, 74);
 }
-#cardapio a{
+#ver-cardapio{
     color: black;
     display: flex;
     align-items: center;
@@ -85,18 +85,18 @@ div{
     text-decoration: none;
 }
 
-#cardapio img{
+#ver-cardapio img{
     width: 11%;
     height: 11%;
     margin-top: 3px;
     margin-right: 10%;
 }
-#cardapio .line{
+#ver-cardapio .line{
     width: 2px;
     height: 40px;
     background-color: black; 
 }
-#cardapio span{
+#ver-cardapio span{
     color: black;
     font-size: 190%;
     margin-left: 7%;
@@ -107,21 +107,22 @@ div{
 
 #contato{
     background-color: black;
+    display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    width: 70%;
     margin-top: 2%;
 }
 #contato a{
     display: flex;
     justify-content: center;
-    max-width: 70%;
-    margin: 0px 3% 0px 3%;
+    background-color: rgb(207, 152, 74);
+    border-radius: 100%;
+    padding: 9px;
 }
 #contato img{
     width: 33px;
     height: auto;
-    background-color: rgb(207, 152, 74);
-    border-radius: 100%;
-    padding: 9px;
 }
 
 
