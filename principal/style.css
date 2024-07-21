@@ -8,11 +8,18 @@ div{
     padding: 20px;
     border-color: black;
 }
+
+h1{
+    text-align: center;
+    font-size: 230%;
+    font-family: sans-serif;
+}
+
 a{  
     border: solid black;
     border-radius: 50px;
     text-align: center;
-    padding: 7%;
+    padding: 5% 7% 5% 7%;
     width: 40%;
     text-decoration: none;
     height: 40%;
