@@ -8,7 +8,8 @@ img{
     width: 10px;
 }
 main{
-    background-image: url(fundo.png);
+    background-color: rgb(25, 26, 25);
+    /**background-image: url(fundo.png);**/
     max-width: 660px;
     margin: 0 auto;
     text-align: center;
@@ -17,10 +18,10 @@ main{
 
 
 #logo{
-    background-color: rgb(15, 15, 15);
+    background-color: rgb(18, 18, 18);
 }
 #logo img{
-    background-color: rgb(15, 15, 15);
+    background-color: rgb(18, 18, 18);
     width: 90%;
 }
 
